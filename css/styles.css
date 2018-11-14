@@ -598,7 +598,7 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: rgb(40, 70, 102) url('../img/vt-site-1.jpg') no-repeat center center;
+    background: url('../img/vt-site-7.png') no-repeat center center;
     background-size: cover;
     color: #E7973C;
 }
@@ -678,8 +678,8 @@ services Slider
 .services-bg {
     position: relative;
     min-height: 400px;
-    background: url('../img/vermilion-tech-staff.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('../img/vermilion-team-tile.png') repeat center center;
+    background-size: contain;
 }
 .services-img {
     width: 100%;
@@ -722,7 +722,7 @@ services Slider
 }
 .services-slider .flickity-page-dots {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 30px;
     position: static;
 }
 .services-slider .flickity-page-dots .dot {
@@ -1100,8 +1100,10 @@ Clients
 ========================================================================== */
 #clients {
   background: #372D59;
+  border-bottom: 4px #D65720 ridge;
+  border-top: 4px #D65720 ridge;
   color: #E7973C;
-  padding: 3em 0;
+  padding: 4em 0;
   text-align: center;
 }
 
@@ -1115,4 +1117,12 @@ Clients
 .client-logos img {
   margin: .5em;
   max-height: 60px;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width : 640px) {
+  .client-logos img {
+    margin: .5em;
+    max-height: 40px;
+  }
 }
