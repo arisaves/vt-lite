@@ -87,6 +87,10 @@ html, html a {
     color: #E7973C;
 }
 
+form {
+  padding: 0 1em;
+}
+
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -714,7 +718,39 @@ services Slider
 .services-intro-img {
     position: relative
 }
-#contact h1,
+
+#contact h1 {
+  color: #E7973C;
+  font-size: 1.75em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+#contact .learn-btn {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.contact-inf {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  margin-right: 1.5em;
+}
+
+.contact-inf i {
+  color: #E7973C;
+  margin-right: .75em;
+}
+
+.contact-wrap-all {
+  background: rgba(55, 45, 89, 0.8);
+}
+
+.contact-wrap {
+  text-align: center;
+}
+
 .slides li h1 {
     color: #D65720;
     margin: 0;
