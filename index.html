@@ -220,11 +220,11 @@
 				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row">
-						<div class="contact-wrap-all col-md-10 col-md-offset-1">
+						<div class="contactcol-md-10 col-md-offset-1">
 							<h1>Drop us a line and we'll contact you within the hour — guaranteed!</h1>
 
 							<div class="contact-wrap col-md-8 col-md-offset-2">
-								<a class="contact-inf" href="tel:+19177271758"><i class="fa fa-phone"></i>+1 (917) 727-1758</a>
+								<a class="contact-inf" href="tel:+19177271758"><i class="fa fa-phone"></i>+1 (917) 727-1768</a>
 								<a class="contact-inf" href="mailto:mark@vermilion.tech?subject=VT General Inquiry"><i class="fa fa-envelope"></i>mark@vermilion.tech</a>
 							</div>
 							<br />
@@ -280,6 +280,32 @@
 								</div>
 
 								</form>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="privacyPolicy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title" style="text-align:center;">Vermilion Tech Privacy Policy</h2>
+									</div>
+									<div class="modal-body">
+										<h3>Your privacy is critical to us. Likewise, we have built up this Policy with the end goal you should see how we gather, utilize, impart and reveal and make utilization of individual data. The following blueprints our privacy policy.</h3>
+										<ul style="margin:1em;">
+											<li>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.</li>
+											<li>We will gather and utilization of individual data singularly with the target of satisfying those reasons indicated by us and for other good purposes, unless we get the assent of the individual concerned or as required by law.</li>
+											<li>We will just hold individual data the length of essential for the satisfaction of those reasons.</li>
+											<li>We will gather individual data by legal and reasonable means and, where fitting, with the information or assent of the individual concerned.</li>
+											<li>Personal information ought to be important to the reasons for which it is to be utilized, and, to the degree essential for those reasons, ought to be exact, finished, and updated.</li>
+											<li>We will protect individual data by security shields against misfortune or burglary, and also unapproved access, divulgence, duplicating, use or alteration.</li>
+											<li>We will promptly provide customers with access to our policies and procedures for the administration of individual data.</li>
+											<h3>We are focused on leading our business as per these standards with a specific end goal to guarantee that the privacy of individual data is secure and maintained.</h3>
+										</ul>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -339,5 +365,15 @@
 
 		  gtag('config', 'UA-123371913-2');
 		</script>
+		<script>
+		$(document).ready(function() {
+
+		  if(window.location.href.indexOf('#privacyPolicy') != -1) {
+		    $('#privacyPolicy').modal('show');
+		  }
+
+		});
+		</script>
+
 	</body>
 </html>
